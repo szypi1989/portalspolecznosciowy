@@ -1,0 +1,21 @@
+div#hidden{
+position:absolute;
+left:0px;
+top:0px;
+
+}
+html,body {
+
+margin:0px auto;
+
+}
+
+div#body {
+    width:1100px;
+    height:auto;
+    margin:auto;
+    position:relative;
+    border-color:none;
+    background-color:#F0FFFF;
+    z-index:0;
+}

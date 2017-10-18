@@ -1,0 +1,180 @@
+div.menu_left_build{
+float:left;
+position:relative;
+width:100%;
+height:auto;
+}
+div#content_profile{
+float:left;
+position:relative;
+display:inline-block;
+width:100%;
+height:auto;
+padding-top:20px;
+padding-bottom:10px;
+margin-left:10px;
+}
+div#image.content_profile{
+float:left;
+position:relative;
+width:40px;
+height:40px;
+}
+#text_surname.content_profile{
+float:left;
+position:relative;
+height:40px;
+width:135px;
+margin-left:5px;
+margin-top:5px;
+}
+.content_profile span{
+font-size:0.8em;  
+font-weight:bold;
+color:#444;
+}
+
+span.length_more{
+top:20px;
+margin-top:-0.5em;
+}
+
+span.length_normal{
+top:20px;
+margin-top:-0.5em;    
+}
+#main_options{
+    position:relative;
+    display:inline-block;
+    width:100%;
+    height:40px;
+}
+#invitation_cont{
+    position:relative;
+    display:inline-block;
+     width:100%;
+    height:25px;
+}
+#invitation{
+    position:relative;
+    height:25px;
+    width:160px;
+    margin:auto;
+    background-color: #fff;
+    cursor:pointer;
+}
+#txt_ivitation{
+    position:relative;
+    width:auto;
+    height:15px;
+    margin-top:5px;
+    margin-left:5px;
+    display:inline-block;
+    float:left;
+}
+#info_invitation{
+    position:relative;
+    width:auto;
+    height:15px;
+    display:inline-block;
+    float:right;
+    margin-top:5px;
+}
+#txt_ivitation span{
+    font-weight:normal;
+    font-family:Helvetica;
+    color:#009;
+    font-size:0.85em;  
+}
+#info_invitation span{
+    font-weight:bold;
+    font-family:Helvetica;
+    font-size:0.80em; 
+}
+
+#message_cont{
+    position:relative;
+    display:inline-block;
+     width:100%;
+    height:25px;
+}
+#message{
+    position:relative;
+    height:25px;
+    width:160px;
+    margin:auto;
+    background-color: #fff;
+    cursor:pointer;
+}
+#txt_message{
+    position:relative;
+    width:auto;
+    height:15px;
+    margin-top:5px;
+    margin-left:5px;
+    display:inline-block;
+    float:left;
+}
+#info_message{
+    position:relative;
+    width:auto;
+    height:15px;
+    display:inline-block;
+    float:right;
+    margin-top:5px;
+}
+#txt_message span{
+    font-weight:normal;
+    font-family:Helvetica;
+    color:#009;
+    font-size:0.85em;  
+}
+#info_message span{
+    font-weight:bold;
+    font-family:Helvetica;
+    font-size:0.80em; 
+}
+
+
+#list_cont{
+    position:relative;
+    display:inline-block;
+     width:100%;
+    height:25px;
+}
+#list{
+    position:relative;
+    height:25px;
+    width:160px;
+    margin:auto;
+    background-color: #fff;
+    cursor:pointer;
+}
+#txt_list{
+    position:relative;
+    width:auto;
+    height:15px;
+    margin-top:5px;
+    margin-left:5px;
+    display:inline-block;
+    float:left;
+}
+#info_list{
+    position:relative;
+    width:auto;
+    height:15px;
+    display:inline-block;
+    float:right;
+    margin-top:5px;
+}
+#txt_list span{
+    font-weight:normal;
+    font-family:Helvetica;
+    color:#009;
+    font-size:0.85em;  
+}
+#info_list span{
+    font-weight:bold;
+    font-family:Helvetica;
+    font-size:0.80em; 
+}

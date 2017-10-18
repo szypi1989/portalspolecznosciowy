@@ -1,0 +1,81 @@
+body{
+    background-color:#6BCEFF; 
+}
+
+
+#panel { 
+    width: 400px;  
+    margin: 0 auto;  
+    padding: 15px 0 0; 
+    background: #fff; 
+    border: 1px solid silver; 
+    font: 16px calibri; 
+    letter-spacing: -1px; 
+    -webkit-box-shadow: 0 0 2px silver;  
+    -moz-box-shadow: 0 0 2px silver;  
+    box-shadow: 0 0 2px silver; 
+} 
+div.login{
+    display:block;
+    width:auto;
+}
+div.login p{
+    display:block;
+    margin-right:4px;
+}
+
+form { 
+    margin: 0; 
+} 
+ label { 
+    display: block; 
+    width: 260px; 
+    padding: 10px 20px; 
+    color: #696969; 
+    font-size: 16px; 
+    text-shadow: 0 0 1px silver; 
+}
+#lower { 
+    background: #ecf2f5; 
+    width: 360px; 
+    padding: 5px 20px; 
+    margin-top: 20px; 
+}
+#panel #username, #panel #password { 
+    display: block; 
+    width: 360px;  
+    margin: 0 auto; 
+    padding: 5px 5px; 
+    border: 1px solid silver; 
+    outline: 5px solid #ebebeb; 
+    font-size: 22px; 
+} 
+#username:focus, #password:focus { 
+    outline: 5px solid #e5f2f8; 
+}
+.check { 
+    display: inline; 
+    float: none; 
+    font-size: 11px; 
+    padding: 5px; 
+} 
+input[type="submit"] { 
+    width: 70px; 
+    padding: 5px 13px; 
+    border: 1px solid #005f85; 
+    color: white;
+    background: #76a7ba; 
+    position: relative; 
+    left: 150px; 
+    cursor: pointer;
+}
+#panel, input[type="submit"] { 
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    border-radius: 5px;  
+}
+
+#regedit_click{
+    position:relative;
+    margin-left:280px;
+}

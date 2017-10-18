@@ -1,0 +1,23 @@
+
+div#footer_menu {
+    width:1100px;
+    height:40px;
+    position:fixed;
+    margin:auto;
+    background-color: #c2eee9;
+    z-index:1;
+    bottom:0px;
+}
+#copyright{
+    float:right;
+    height:auto;
+    width:auto;
+    margin-right:10px;
+}
+#copyright span{
+    color:#104c44;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:0.80em;  
+    line-height:30px;
+}

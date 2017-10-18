@@ -1,0 +1,99 @@
+body{
+    background-color:#98c9dc;; 
+}
+
+form{
+       background-color:#c2eee9; 
+ 
+}
+#panel{
+    postion:absolute;
+    margin-left:100px;
+    background-color:#c2eee9; 
+    width:420px;
+}
+#panelrejestracji { 
+    width: 380px;  
+    margin: 40px;  
+    padding: 15px; 
+    background-color:#c2eee9; 
+    font: 16px calibri; 
+    letter-spacing: -1px; 
+    position:relative;
+    height:auto;
+}
+#panelrejestracji #username, #panelrejestracji #password,#passwordctrl,#email { 
+    display: block; 
+    width: 360px;  
+    margin: 4px; 
+    padding: 2px 2px; 
+    border: 1px solid silver; 
+    outline: 5px solid #ebebeb; 
+    font-size: 16px; 
+} 
+#panelozn{
+    display:block;
+    margin-left:40px;
+    
+}
+#boys{
+    margin: 2px 10px;
+}
+#select{
+    width: 360px;
+}
+select{
+
+    float:left; 
+}
+form { 
+    margin: 0; 
+} 
+ label { 
+    display: block; 
+    width: 260px; 
+    padding: 10px 20px; 
+    color: #696969; 
+    font-size: 16px; 
+    text-shadow: 0 0 1px silver; 
+}
+#lower { 
+    background: #ecf2f5; 
+    width: 360px; 
+    padding: 5px 20px; 
+    margin-top: 20px; 
+}
+
+#username:focus, #password:focus { 
+    outline: 5px solid #e5f2f8; 
+}
+.check { 
+    display: inline; 
+    float: none; 
+    font-size: 11px; 
+    padding: 5px; 
+} 
+input[type="button"] { 
+    width: 100px; 
+    padding: 5px 13px; 
+    border: 1px solid #005f85; 
+    color: black; 
+    text-shadow: 0 0 1px black; 
+    background: #98c9dc; 
+    position: relative; 
+    left: 100px; 
+}
+#panel, input[type="buttons"] { 
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    border-radius: 5px;  
+}
+#acceptance{
+    color:#f00;
+    visibility:visible;
+    border-style:groove;
+}
+#sex{
+    position:relative;
+  
+}

@@ -1,0 +1,134 @@
+#centertop{
+    float:left;
+    width:740px;
+    height:auto;
+    border: 1px solid silver; 
+    margin-top:40px;
+    
+}
+#cont_friends{
+    float:left;
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color: #d5fffa;
+}
+#header{
+    float:left;
+    position: relative;
+    width:100%;
+    height:auto;
+    background-color: #D1F5FF;
+}
+#header span{
+    color:#10244A;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:1em;  
+    line-height:30px;
+}
+#text_header{
+    margin-left:10px; 
+}
+#friends{
+    float:left;
+    position: relative;
+    width:100%;
+    height:auto;
+    margin-left:20px;
+}
+
+#header div{
+    display:inline-block;
+    float:left;
+    position:relative;
+}
+
+.cont_friends{
+    float:left;
+    display:inline-block;
+    position: relative;
+    width:auto;
+    height:150px;
+    background-color: #fff;
+    border-color:#b3ddd8;
+    border-style:solid;
+    border-width:thin;
+    margin:10px;
+}
+.cont_avatar_friends{
+    float:left;
+    display:inline-block;
+    position: relative;
+    width:110px;
+    height:130px;
+    background-color: #fff;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    border-color:#b3ddd8;
+    border-style:solid;
+    border-width:thin;
+}
+.cont_info_friends{
+    float:left;
+    display:inline-block;
+    position: relative;
+    width:450px;
+    height:auto;
+    background-color: #fff;
+    margin-top:10px;
+    margin-right:5px;
+}
+.info{
+
+    width:100%;
+
+
+}
+.friends_surname{
+    width:100%;
+    height:auto;
+    color:#00f;
+    font-weight: 400;
+    margin-top:5px;
+}
+.delete_friend{
+    position:relative;
+    height:auto;
+    font-weight:bolder;
+    padding:5px;
+    right:5px;
+    cursor: pointer;
+}
+#view_empty_friends{
+    position:relative;
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+#id_profile{
+    visibility:hidden;
+    position:absolute;
+}
+#hidden_info{
+     position:absolute;
+     visibility: hidden;
+}
+
+input[name=allow_write_msg] {
+position:relative;
+height:20px;
+width:20px;
+margin:5px;
+   float:left;
+}
+#all_msg{
+    height:20px;
+    float:center;
+    margin:auto;
+}
+#all_msg span{
+        float:left;
+         line-height:30px;   
+}

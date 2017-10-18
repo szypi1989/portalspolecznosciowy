@@ -1,0 +1,15 @@
+div#center{
+    width:1100px;
+    height:740px;
+    position:relative;
+    margin:auto;
+    top:40px;
+    z-index:0;
+    overflow-y:auto;
+}
+#centerleftblock{
+    float:left;
+    position:relative;
+    width:180px;
+    height:400px; 
+}

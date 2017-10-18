@@ -1,0 +1,469 @@
+#centertop{
+    float:left;
+    width:740px;
+    height:auto;
+    border: 1px solid silver; 
+    margin-top:40px;
+    
+}
+.id_message{
+    position:absolute;
+    visibility:hidden;
+}
+#id_friend{
+    position:absolute;
+    visibility:hidden;
+}
+#message_cont_text_temp{
+    visibility:hidden;
+    display:none;
+}
+.empty_message{
+text-align: center; 
+}
+#cont_send_message{
+    position:relative;
+    width:100%;
+    height:80px;
+    background-color: #D6FEFF;  
+    overflow:hidden;
+}
+textarea#contents_message {
+        resize:none;
+}
+
+#cont_text_message{
+position:relative;
+float:left;
+display:inline-block;
+height:80px;
+width:510px;
+padding:5px;
+z-index:1;
+
+}
+#options_send_message{
+width:auto;
+height:auto;
+position:relative;
+display:inline-block;
+flaot:left;
+z-index:0;
+}
+#button_cont_send{
+position:relative;
+height:auto;
+width:auto;
+display:block;
+padding:5px;
+margin-right: 5px;
+}
+#status_actual_write{
+position:relative;
+height:auto;
+width:150px;
+display:block;
+margin-right: 5px;
+margin-left:10px;
+visibility:hidden;
+}
+.status_actual_write{
+position:relative;
+height:20px;
+width:100%;
+display:block;
+}
+.cont_but_options_marks_delete{
+    position:relative;
+    background-color: #c2eee9;
+    width:100%;
+    height:30px;
+    float:left;
+}
+.cont_but_options_marks_delete div{
+    float:right;
+    margin-right:10px;
+    cursor:pointer;
+}
+.cont_but_options_marks_delete div span{
+color: #103321;    
+}
+#cont_message{
+    float:left;
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color: #d5fffa;
+}
+#header{
+    float:left;
+    position: relative;
+    width:100%;
+    height:auto;
+    background-color: #D1F5FF;
+}
+#header .text_header{
+    color:#425863;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:1em;  
+    line-height:30px; 
+}
+
+.test{
+    visibility:hidden;
+}
+#but_message_all{
+    margin-left:10px;
+    cursor:pointer;
+}
+.but_options_message{
+    cursor:pointer;
+    visibility:hidden;
+}
+
+
+#header span{
+    color:#10244A;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:1em;  
+    line-height:30px;
+}
+
+#message_cont_text{
+    float:left;
+    position: relative;
+    width:100%;
+    height:auto;
+    z-index:0;
+}
+#block_for_all_message{
+    position:relative;
+    float:left;
+    height:min-content;
+    width:100%;
+    background-color: #c2eee9;
+}
+#message_all_cont_text{
+    top:30px;
+    position: absolute;
+    width:100%;
+    height:auto;
+    z-index:1;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: #c2eee9;
+    visibility:hidden;
+}
+#message_options_bin{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+#but_all_options_bin,#but_only_delete_options_bin{
+display:inline-block;
+width:min-content;
+height:auto;
+padding:5px;
+margin-left:5px;
+color: #103321;
+cursor:pointer;
+}
+#but_all_options_bin.but_enabled_options_message_bin,#but_only_delete_options_bin.but_enabled_options_message_bin{
+background-color: #e4fffa;    
+}
+#but_all_options_bin.but_disabled_options_message_bin,#but_only_delete_options_bin.but_disabled_options_message_bin{
+background-color:transparent;   
+}
+#message_all_cont_text_inbox a,#message_all_cont_text_outbox a,#message_all_cont_text_bin a:link{
+    color:#000;
+}
+
+#message_all_cont_text_inbox a,#message_all_cont_text_outbox a,#message_all_cont_text_bin a:visited{
+    color:#000;
+}
+ 
+#message_all_cont_text_options{
+    position:relative;
+    width:100%;
+    height:30px;
+}
+#message_all_cont_text_contents{
+    float:left;
+    position:relative;
+    width:100%;
+    height:content-box;
+    border-bottom:3px solid #103321;
+    height:auto;
+}
+
+#message_all_cont_text_inbox{
+    height:auto;
+    position:absolute;
+    width:100%;
+    z-index:0;
+    background-color: #c2eee9;
+    visibility:hidden;
+     border: 1px solid silver; 
+}
+
+#message_all_cont_text_outbox{
+    height:auto;
+    position:absolute;
+    width:100%;
+    z-index:1;
+    background-color: #c2eee9;
+    visibility:hidden;
+     border: 1px solid silver; 
+}
+#message_all_cont_text_bin{
+    height:auto;
+    position:absolute;
+    width:100%;
+    z-index:2;
+    background-color: #c2eee9;
+    visibility:hidden;
+     border: 1px solid silver; 
+}
+#message_all_cont_text_options .but_enabled_options_message,#message_all_cont_text_options .but_disabled_options_message{
+    cursor:pointer;
+}
+.but_enabled_options_message{
+    display:inline-block;
+    width:max-content;
+    height:auto;
+    padding:5px;
+    background-color: #e4fffa;
+    margin-right:5px;
+}
+.but_enabled_options_message span{
+    color: #103321;
+}
+.but_disabled_options_message{
+    display:inline-block;
+    width:max-content;
+    height:auto;
+    padding:5px;
+    margin-right:5px;
+}
+.but_disabled_options_message span{
+    color: #658877;
+}
+.message_cont_text{
+    float:left;
+    position:relative;
+    width:740px;
+    height:auto;
+    margin-top: 5px;
+    background-color: #fff;
+    z-index:0;
+}
+#message_cont_text_contents{
+    position:relative;
+    display:inline-block;
+    width:100%;
+    height:auto;
+    max-height:260px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.build_message{
+    position:relative;
+    display:inline-block;
+    width:100%;
+    height:auto;
+    max-height:260px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.active{
+    opacity:0.3;
+    filter: alpha(opacity=30);
+}
+.message_cont_text_all_outbox{
+    float:left;
+    position:relative;
+    width:740px;
+    height:auto;
+    margin-top: 5px;
+    background-color: #fff;
+    z-index:0;
+}
+.message_cont_text_all_bin{
+    float:left;
+    position:relative;
+    width:740px;
+    height:auto;
+    margin-top: 5px;
+    background-color: #fff;
+    z-index:0;
+}
+.message_cont_text_all_inbox{
+    float:left;
+    position:relative;
+    width:740px;
+    height:auto;
+    margin-top: 5px;
+    background-color: #fff;
+    z-index:0;
+}
+#message_all_cont_text .no_get_back,#message_cont_text .no_get_back{
+    background-color: #E8FAFF;
+}
+
+.message_cont_image{
+    float:left;
+    position:relative;
+    width:40px;
+    height:40px;
+    padding:5px;
+}
+.message_cont_left{
+    float:left;
+    position:relative;
+    width:45px;
+    height:auto;
+    padding:5px;
+}
+.message_cont_info{
+   display:inline-block;
+    overflow:auto;
+   width:685px;
+   height:auto;
+}
+.date_cont_message{
+   position:relative;
+}
+.message_cont_info_head{
+   position:relative;
+   height:25px;
+   margin-top: 5px;
+   padding-left:5px;
+   padding-right:5px;
+   margin-right:15px;
+}
+#header div{
+    display:inline-block;
+    float:left;
+    position:relative;
+}
+.date_cont_message{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+.contents{
+    float:left;
+    position:relative;
+    width:635px;
+    max-height:40px;
+    overflow-y:auto;
+    word-break:break-all;
+    font-weight:100;
+    color:#19415C;
+    font-size:0.85em; 
+    font-family:tahoma;
+}
+
+.options_message_delete{
+    float:right;
+    position:relative;
+    width:max-content;
+    height:auto;
+    margin-right:20px;
+}
+.date_cont_message span{
+    padding-left:5px;
+    padding-right:5px;
+}
+div.date_text_head{
+    float:left;
+}
+div.date_time_head{
+    float:right;
+    font-weight:100;
+    color:#19415C;
+    font-size:0.85em; 
+    font-family:tahoma;
+}
+div.date_name_head{
+    float:left;
+    font-weight:bold;
+    color:#114A70;
+    font-size:0.80em; 
+    font-family:tahoma;  
+}
+span.date_name_head{
+    
+}
+span.status_recipient{
+    color:#f00;
+}
+.cont_friends{
+    float:left;
+    display:inline-block;
+    position: relative;
+    width:auto;
+    height:150px;
+    background-color: #fff;
+    border-color:#b3ddd8;
+    border-style:solid;
+    border-width:thin;
+    margin:10px;
+}
+.cont_avatar_friends{
+    float:left;
+    display:inline-block;
+    position: relative;
+    width:130px;
+    height:130px;
+    background-color: #fff;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    border-color:#b3ddd8;
+    border-style:solid;
+    border-width:thin;
+}
+.cont_info_friends{
+    float:left;
+    display:inline-block;
+    position: relative;
+    width:170px;
+    height:130px;
+    background-color: #fff;
+    margin-top:10px;
+    margin-right:5px;
+}
+.friends_surname{
+    width:100%;
+    height:auto;
+    color:#00f;
+    font-weight: 400;
+    margin-top:5px;
+}
+.delete_friend{
+    position:absolute;
+    text-align: right;
+    width:100%;
+    height:auto;
+    font-weight:bolder;
+    padding:5px;
+    right:5px;
+    cursor: pointer;
+}
+#view_empty_friends{
+    position:relative;
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+#id_profile{
+    visibility:hidden;
+    position:absolute;
+}
+#hidden_info{
+     position:absolute;
+     visibility: hidden;
+}

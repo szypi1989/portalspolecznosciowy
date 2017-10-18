@@ -1,0 +1,293 @@
+#centertop{
+    float:left;
+    width:740px;
+    height:auto;
+    border: 1px solid silver; 
+    margin-top:40px;
+    
+}
+#info{
+    float:left;
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color: #d5fffa;
+}
+#hobby{
+    float:left;
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color: #DEFBFF;
+}
+.rows_hobby{
+    color:#061B26;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:0.8em;      
+}
+#but_send_card{
+    position:absolute;
+    width:100%;
+    z-index:999;
+}
+#but_send_card div{
+    position:relative;
+    float:right;
+    margin:5px;
+}
+.infotext{
+    display:inline-block;
+    position:relative;
+    width:660px;
+    height:auto;
+    padding:0px;
+    padding-left:40px;
+    padding-right:40px;
+    border: 1px solid #c7ede8;    
+}
+.infotext span{
+    line-height:20px;
+}
+
+#additions{
+    float:left;
+    position:relative;
+    width:100%;
+    height:180px;
+}
+#cont_avatar{
+    float:left;
+    width:auto;
+    height:180px;   
+}
+#cont_gallery_option{
+    float:left;
+    width:auto;
+    height:180px;   
+}
+#cont_friend_option{
+    float:left;
+    width:auto;
+    height:180px;   
+}
+span.avatar_link a{
+    margin:auto;
+    position:relative;
+    top:50px;
+    left:20px;
+    background-color:#fff;
+    text-decoration:none;
+}
+span.gallery_link{
+    margin:auto;
+    position:relative;
+    top:50px;
+    left:20px;
+    background-color:#fff;
+}
+#friends{
+    float:left;
+    position:relative;
+    width:130px;
+    height:130px;
+    margin:5px;
+    background-color:#0F0;
+    border: 1px solid silver; 
+}
+
+span{
+    margin:auto;
+     line-height:16px;
+}
+span.normal{
+    color:#001a11;
+    font-family:tahoma;
+    font-weight:normal;
+    font-size:0.83em;
+}
+span.name{
+    color:#333;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:1em;  
+    line-height:30px;
+}
+span.hobbycont{
+    margin-top: -10px;
+    color:#10244A;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:1em;  
+    line-height:30px;
+}
+span.where{
+    color:#104c44;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:0.80em;  
+}
+span.lack{
+    color:#547773;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:0.85em;    
+}
+
+span#view_old_employee_but{
+    color:#c00;
+    cursor:pointer;
+    font-weight: 100;
+    font-size:0.85em;  
+    position:relative;
+    display:inline-block;
+}
+div#view_old_employee{
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color:#ffffcc;
+    visibility:hidden;
+    color:#663300;
+}
+span#view_old_school_but{
+    color:#c00;
+    cursor:pointer;
+    font-weight: 100;
+    font-size:0.85em; 
+    position:relative;
+    display:inline-block;
+}
+div#view_old_school{
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color:#ffffcc;
+    visibility:hidden;
+    color:#663300
+}
+.but_upload{
+    position:absolute;
+    width:100%;
+    height:10px;
+    color:#fff;
+    cursor:pointer;
+}
+#upload_link div{
+    position:relative;
+    width:100%;
+    text-align: center;
+}
+
+#file_cont{
+    opacity:0;
+    filter: alpha(opacity=0);
+    width:40px;
+    color:#fff;
+    position:relative;
+    
+}
+#but_upload{
+    position:relative;
+    height:20px;
+    width:110px;
+    margin-left:5px;
+    overflow:hidden;
+    background-color: #000;
+}
+#loading_image{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color: #000;
+    opacity:0;
+    filter: alpha(opacity=0);
+    z-index:1;
+}
+#loading_image div{
+    float:left;
+    position:relative;
+    left:50%;
+    top:50%;
+    width:auto;
+    height:auto;
+}
+#cnt_img{
+ position:absolute;
+    height:100%;
+    width:100%;
+    z-index:0;
+}
+#loading_image span{
+    color:#fff;
+}
+#gallery_option{
+display:inline-block;
+position:relative;
+background-color:#000;
+width:130px;
+height:150px;
+margin-left:5px;
+margin-top:5px;
+border: 1px solid silver; 
+}
+#friend_option{
+display:inline-block;
+position:relative;
+background-color:#000;
+width:130px;
+height:150px;
+margin-left:5px;
+margin-top:5px;
+border: 1px solid silver; 
+text-align: center;
+    color:#fff;
+}
+#friend_option span{
+    position:relative;
+    color:#fff;
+    margin-top:65px;
+    top:65px;
+}
+#overlay_gallery{
+    top:0px;
+    height:100%;
+    left:0px;
+    width:100%;
+    position:absolute;
+    z-index:2;
+}
+.overlay_gallery{
+    display:inline-block;
+    float:left;
+    height:100%;
+    margin-right:13px;
+    width:10%;
+    position:relative;
+    background-color: #000;
+    opacity:0.3;
+    filter: alpha(opacity=30);
+    z-index:2;
+}
+#overlay_text{
+    position:absolute;
+    z-index:4;
+    top:60px;
+    left:4px;
+    color:#fff;
+    margin-right: 0px;
+}
+#overlay_text_bg{
+    position:absolute;
+    z-index:3;
+    width:100%;
+    height:20px;
+    top:60px;
+    left:0px;
+    background-color: #000;
+    opacity:0.6;
+    filter: alpha(opacity=60);
+}
+#cont_hidden{
+    visibility:hidden;
+}

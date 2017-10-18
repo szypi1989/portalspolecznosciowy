@@ -1,0 +1,553 @@
+#id_profile{
+visibility: hidden;    
+}
+
+#centertop{
+    float:left;
+    width:740px;
+    height:100%;
+    border: 1px solid silver; 
+    margin-top:40px;
+}
+#content_edit{
+    float:left;
+    position:relative;
+    width:100%;
+    height:auto;
+    background-color: #D1F5FF;
+    z-index:1;
+}
+#data_info_mysql_hidden{
+   float:left;
+    position:relative;
+    width:0px;
+    height:0px;
+    background-color: #ffeafe;
+    z-index:2; 
+    visibility: hidden;  
+}
+#control_hobby,#control_live,#control_surname,#control_birth{
+    color:#F00;
+    line-height:15px;
+    position:relative;
+    display:block;
+}
+span.username{
+    margin:10px;
+    color:#10244A;
+    font-family:tahoma;
+    font-weight: 100;
+    font-size:1em;  
+    line-height:30px;
+}
+#save_data{
+    margin-right:10px;
+    margin-top:5px;
+    color:#00f;
+    font-family:tahoma;
+    font-size:1em;  
+    float:right;
+    cursor:pointer;
+    visibility:hidden;
+}
+#table_input{
+    float:left;
+    position:relative;
+    width:100%;
+    height:auto;
+}
+.table_form{
+    float:left;
+    position:relative;
+    width:350px;
+    height:100px;
+    margin-left:20px;
+}
+.form_obiekt{
+    float:left;
+    position:relative;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:0px;
+    height:auto;
+}
+.form_error{
+   color:#F00;
+   float:left;
+   position:relative;
+   margin-top:5px;
+}
+
+label {
+    color:#547773;
+    float: left;
+    line-height:10px;
+}
+input[type=text]{
+    width:330px;
+}
+input[type=button]{
+    width:25px;
+    height:25px;
+    display:inline;
+}
+#form_live_search{
+cursor:pointer;
+background-color: #ffeafe;
+width:335px;
+height:0px;
+margin-top:20px;
+position:absolute;
+border-style:solid;
+border-color:#a80096;
+border-width: 1px;
+}
+
+.form_live_search{
+height:25px;
+border-bottom-style:solid;
+border-width: 1px;
+border-color:#ffa3fa;
+visibility:hidden;
+}
+#form_live_search span{
+    float:left;
+    position:relative;
+    margin-top:5px;
+    font-family:tahoma;
+    color:#a80096;
+    font-size:0.8em;
+    display: inline-block;
+}
+#date_birth_cont{
+position:relative;
+display: inline-block;    
+}
+.form_live_search span:nth-child(2){
+    float:left;
+    position:relative;
+    margin-top:5px;
+    font-family:tahoma;
+    font-weight:bold;
+    text-decoration-line: underline;
+}
+.form_live_search span:nth-child(1){
+margin-left: 5px;
+}
+.span_live_ex{
+    color:#96ff85;
+}
+
+#form_school_search,#form_work_search{
+cursor:pointer;
+background-color: #ffeafe;
+width:335px;
+height:0px;
+margin-top:25px;
+position:absolute;
+border-style:solid;
+border-color:#a80096;
+border-width: 1px;
+}
+.form_school_search,.form_work_search{
+height:25px;
+border-bottom-style:solid;
+border-width: 1px;
+border-color:#ffa3fa;
+visibility:hidden;
+}
+#form_school_search span,#form_work_search span{
+    float:left;
+    position:relative;
+    margin-top:5px;
+    font-family:tahoma;
+    color:#a80096;
+    font-size:0.8em;
+    display: inline-block;
+}
+.form_school_search span:nth-child(2),.form_work_search span:nth-child(2){
+    float:left;
+    position:relative;
+    margin-top:5px;
+    font-family:tahoma;
+    font-weight:bold;
+    text-decoration-line: underline;
+}
+.form_school_search span:nth-child(1),.form_work_search span:nth-child(1){
+margin-left: 5px;
+}
+.input_search{
+    z-index:1;
+    visibility:hidden;
+}
+select[name=year_start]{
+z-index:0;
+width:100%;
+}
+
+div.school_info{
+    position:relative;
+    display:inline-block;
+    margin-right: 5px;
+    height:50px;
+}
+div.work_info{
+    position:relative;
+    display:inline-block;
+    margin-right: 5px;
+    height:50px;
+}
+div.school_type span{
+font-size:0.8em;
+display:inline-block;
+color:#000;
+margin-top:4px;
+}
+div.work_type span{
+font-size:0.8em;
+display:inline-block;
+color:#000;
+margin-top:4px;
+}
+div.school_time span{
+font-size:0.8em;
+display:inline-block;
+color:#000;
+}
+div.school_time{
+position:relative;
+height:25px;
+}
+div.work_time span{
+font-size:0.8em;
+display:inline-block;
+color:#000;
+}
+div.work_time{
+position:relative;
+height:25px;
+}
+div.school_type{
+position:relative;
+height:25px;
+}
+
+div.work_type{
+position:relative;
+height:25px;
+}
+select[name=year_start_sch],select[name=year_finish_sch]{
+z-index:0;
+}
+select[name=year_start_wk],select[name=year_finish_wk]{
+z-index:0;
+}
+input[name=specjalization]{
+width:140px;
+z-index:999999;
+}
+input[name=profession]{
+width:140px;
+}
+#form_school_info_search{
+cursor:pointer;
+background-color: #ffeafe;
+width:120%;
+height:0px;
+margin-top:20px;
+position:absolute;
+border-style:solid;
+border-color:#a80096;
+border-width: 1px;
+}
+.form_school_info_search{
+height:25px;
+border-bottom-style:solid;
+border-width: 1px;
+border-color:#ffa3fa;
+}
+.form_school_info_search span{
+    float:left;
+    position:relative;
+    margin-top:5px;
+    font-family:tahoma;
+    color:#a80096;
+    font-size:0.8em;
+    display: inline-block;
+}
+
+
+.form_school_info_search span{
+margin-left: 5px;
+ float:left;
+    position:relative;
+    margin-top:5px;
+    font-family:tahoma;
+    text-decoration-line: underline;
+}
+
+#form_work_info_search{
+background-color: #F00;
+cursor:pointer;
+background-color: #ffeafe;
+width:120%;
+height:0px;
+margin-top:20px;
+position:absolute;
+border-style:solid;
+border-color:#a80096;
+border-width: 1px;
+}
+.form_work_info_search{
+height:25px;
+border-bottom-style:solid;
+border-width: 1px;
+border-color:#ffa3fa;
+}
+.form_work_info_search span{
+    float:left;
+    position:relative;
+    margin-top:5px;
+    font-family:tahoma;
+    color:#a80096;
+    font-size:0.8em;
+    display: inline-block;
+}
+
+
+.form_work_info_search span{
+margin-left: 5px;
+ float:left;
+    position:relative;
+    margin-top:5px;
+    font-family:tahoma;
+    text-decoration-line: underline;
+}
+.line{
+    position:relative;
+    display: inline-block;
+    width:100%;  
+    height:1px;
+}
+.form_schools_list_type{
+    position:relative;
+    display: inline-block;
+    width:17%;
+}
+.form_schools_list_type:nth-child(4){
+    width:60%;
+}
+.form_schools_list_type,.form_works_list_type,.name_schools,.name_works{
+    background-color: #DEF8FF;
+    
+}
+.name_schools,.name_works,.place_schools,.place_works{
+    cursor:pointer;  
+}
+.name_schools:first-of-type,.name_works:first-of-type{
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;    
+}
+.form_schools_list_type span{
+    cursor:pointer;
+}
+.form_works_list_type span{
+    cursor:pointer;
+}
+.edit_info{
+
+}
+.cloud_info{
+    border-bottom-color: #f00;
+    border-style:double;
+    width:auto;
+    max-width:300px;
+    position:absolute;
+    padding:10px;
+    background-color: #fff;
+    z-index:9999;
+   visibility:hidden;
+    opacity:0;
+    filter: alpha(opacity=0);
+}
+.cloud_info span{
+    color:#00f;
+    cursor:pointer;
+    font-weight: 100;
+    font-size:0.85em; 
+}
+.cloud_info .count_content{
+    color:#f00;
+}
+.cloud_info .count_people{
+     color:#000;
+}
+#name_schools_head.name_schools{
+height:auto;
+}
+.form_works_list_type{
+    position:relative;
+    display: inline-block;
+    width:17%;
+}
+.form_works_list_type:nth-child(4){
+    width:60%;
+}
+#name_schools_head{
+ background-color: #9CD1E0;
+ color:#030C0F;
+}
+#name_works_head{
+ background-color: #9CD1E0;
+}
+.form_schools_list_type_child{
+ background-color: #9CD1E0;
+ border-top-left-radius: 4px;
+border-top-right-radius: 4px;    
+}
+.form_schools_list_type input[type=button]{
+    width:65px;
+    height:16px;
+    display:inline;
+}
+.form_works_list_type_child{
+ background-color:  #9CD1E0;
+ border-top-left-radius: 4px;
+border-top-right-radius: 4px;    
+}
+.form_works_list_type input[type=button]{
+    width:65px;
+    height:16px;
+    display:inline;
+}
+.school_edit_but{
+    display:inline-block;
+    margin-left:5px;
+    height:100%;
+}
+#edit_but_if_empty.edit_but {
+    margin-left:0px;
+    cursor:pointer;
+}
+.edit_but {
+    margin-left:50px;
+    cursor:pointer;
+}
+
+.edit_but span{
+    float:center;
+    color:#F00;
+    font-size:0.8em;
+}
+.edit_but .school_edit_but:nth-child(1) span{
+     font-size:1em;
+}
+.edit_but .school_edit_but:nth-child(5) span{
+     font-size:1em;
+}
+#form_schools_list_type span{
+   padding-left:5px;
+}
+#form_works_list_type span{
+   padding-left:5px;
+}
+#content_search_school{
+z-index:99999999999999999999999999999999;
+position:absolute;
+background-color:#c2eee9;
+height:auto;
+padding-top:20px;
+padding-bottom:20px;
+width:740px;
+visibility:hidden;
+left:0px;
+}
+#content_search_work{
+z-index:10;
+position:absolute;
+background-color:#c2eee9;
+height:auto;
+padding-top:20px;
+padding-bottom:20px;
+width:740px;
+visibility:hidden;
+left:0px;
+}
+div#label_surname span{
+font-size:0.8em;
+display:inline-block;
+color:#000;
+}
+div#label_surname {
+position:relative;
+height:25px;
+}
+div#save_cont_school{
+position:relative;
+height:auto; 
+}
+div#save_cont_work{
+position:relative;
+height:auto;   
+}
+div#exit_cont_work{
+position:relative;
+height:25px;   
+}
+div#exit_cont_school{
+position:relative;
+height:25px;   
+}
+.id_profile{
+visibility:hidden;  
+}
+input[name=exit_cont_but_work]{
+    width:75px;
+    height:25px;
+    display:inline;
+    float:right;
+    margin-right:20px;
+}
+input[name=exit_cont_but_school]{
+    width:75px;
+    height:25px;
+    display:inline;
+    float:right;
+    margin-right:20px;
+}
+input[name=save_cont_but_work]{
+    width:75px;
+    height:25px;
+    display:inline;
+    float:right;
+    margin-right:20px;
+}
+input[name=save_cont_but_school]{
+    width:75px;
+    height:25px;
+    display:inline;
+    float:right;
+    margin-right:20px;
+}
+.empty_info{
+    float:left;
+    position:relative;
+    height:20px;
+    width:350px;
+    color:#f00;
+    text-align: center;
+    
+}
+#right_empty_info.empty_info{
+    float:left;
+    position:relative;
+    height:54px;    
+}
+#name,#surname{
+    width:40%;
+    margin-right:15px;
+}
+
+label{
+    color:#10244A;
+}
